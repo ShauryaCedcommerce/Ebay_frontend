@@ -1,0 +1,156 @@
+.bs-wizard {margin-top: 40px;}
+
+/*Form Wizard*/
+.bs-wizard {border-bottom: solid 1px #e0e0e0; padding: 0 0 10px 0;}
+.bs-wizard > .bs-wizard-step {padding: 0; position: relative;}
+.bs-wizard > .bs-wizard-step + .bs-wizard-step {}
+.bs-wizard > .bs-wizard-step .bs-wizard-stepnum {color: #595959; font-size: 16px; margin-bottom: 5px;}
+.bs-wizard > .bs-wizard-step .bs-wizard-info {color: #999; font-size: 14px;}
+.bs-wizard > .bs-wizard-step > .bs-wizard-dot {position: absolute; width: 30px; height: 30px; display: block; background: #f9fbac; top: 45px; left: 50%; margin-top: -15px;  cursor: initial;margin-left: -15px; border-radius: 50%;}
+.bs-wizard > .bs-wizard-step > .bs-wizard-dot:after {content: ' '; width: 14px; height: 14px; background: #fbbd19; border-radius: 50px; position: absolute; top: 8px; left: 8px;  cursor: initial}
+.bs-wizard > .bs-wizard-step > .progress {position: relative; border-radius: 0px; height: 8px; box-shadow: none; margin: 20px 0;}
+.bs-wizard > .bs-wizard-step > .progress > .progress-bar {width:0px; box-shadow: none; background: #fbee6f;}
+.bs-wizard > .bs-wizard-step.complete > .progress > .progress-bar {width:100%;}
+.bs-wizard > .bs-wizard-step.active > .progress > .progress-bar {width:50%;}
+.bs-wizard > .bs-wizard-step.active > .bs-wizard-dot:after {content: ' '; width: 18px; height: 18px; background: #00fb4f; border-radius: 50px; position: absolute; top: 8px; left: 8px; cursor: initial}
+.bs-wizard > .bs-wizard-step.active > .bs-wizard-dot {position: absolute; width: 34px; height: 34px;-webkit-animation: upSide 2s 98765432; display: block; background: #b1bdfb; top: 45px; left: 50%; margin-top: -15px; margin-left: -15px; border-radius: 50%;}
+.bs-wizard > .bs-wizard-step:first-child.active > .progress > .progress-bar {width:0%;}
+.bs-wizard > .bs-wizard-step:last-child.active > .progress > .progress-bar {width: 100%;}
+.bs-wizard > .bs-wizard-step.disabled > .bs-wizard-dot {background-color: #f5f5f5;}
+.bs-wizard > .bs-wizard-step.disabled > .bs-wizard-dot:after {opacity: 0;}
+.bs-wizard > .bs-wizard-step:first-child  > .progress {left: 50%; width: 50%;}
+.bs-wizard > .bs-wizard-step:last-child  > .progress {width: 50%;}
+.bs-wizard > .bs-wizard-step.disabled a.bs-wizard-dot{ pointer-events: none; }
+/*END Form Wizard*/
+
+
+@-webkit-keyframes upSide
+{
+    from {background-color: #88fb82;transition: 1s}
+    to {background-color: #befbda;transition: 1s}
+}
+
+/*@-moz-keyframes myfirst*/
+/*{*/
+    /*from {border: 3px solid #fbdd25;}*/
+    /*to {border: 3px solid #f9fbac;}*/
+/*}*/
+/*@keyframes border*/
+/*{*/
+    /*!*from {background-color: #fbee6f;}*!*/
+    /*!*to {background-color: #f9fbac;}*!*/
+    /*from {border: 3px solid #fbdd25;}*/
+    /*to {border: 3px solid #f9fbac;}*/
+/*}*/
+
+.divActive {
+    background-color: #fff;
+    /*box-shadow: 3px 3px 3px 3px #fbbd19;*/
+    border: 1px solid #bfbab5;
+    /*-webkit-animation: body 1s 98765432;*/
+    /*-moz-animation: myfirst 1s 98765432;*/
+    /*animation: border 1s 98765432;*/
+}
+.divCompleted {
+    background-color: #00dd21;
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid #cccccc;
+}
+.divDisabled {
+    background-color: #fcfff6;
+    /*box-shadow: 1px 1px 1px 1px #777777;*/
+    border: 1px solid #cccccc;
+}
+
+/******************************   Dashboard->Card Css   **********************************/
+.CARD {
+    position:relative;
+    margin-top:5%;
+    border-radius:5px;
+    box-shadow: 0 4px 10px -5px #777777;
+    border: 1px solid #cccccc;
+}
+.CARD-title-small {
+    position:absolute;
+    width:30%;
+    min-height: 80px;
+    padding: 10px 10px 10px;
+    max-height: 100px;
+    top:-50px;
+    overflow: auto;
+    left:5%;
+    background-color: #9c27b0;
+    color: #fff;
+    border-radius:5px;
+    box-shadow: 0 7px 10px -5px #777777;
+    transition-duration: 200ms;
+}
+.CARD:hover .CARD-title-small {
+    top:-70px;
+    transition-duration: 200ms;
+}
+.CARD:hover .CARD-title {
+    top:-70px;
+    transition-duration: 200ms;
+}
+.CARD-title {
+    position:absolute;
+    color: #fff;
+    width:80%;
+    min-height: 80px;
+    padding: 10px 10px 10px;
+    max-height: 100px;
+    top:-50px;
+    overflow: auto;
+    left:10%;
+    background-color:#00acc1;
+    border-radius:5px;
+    box-shadow: 0 7px 10px -5px #777777;
+    transition-duration: 200ms;
+}
+.BG-primary {
+    background: linear-gradient(60deg, #ab47bc, #8e24aa) !important;
+}
+.BG-info {
+    background: linear-gradient(60deg, #3adaee, #00d3ee) !important;
+}
+.BG-success {
+    background: linear-gradient(60deg, #68ee6a, #00ee08) !important;
+}
+.BG-danger {
+    background: linear-gradient(60deg, #ef595b, #e53935) !important;
+}
+.BG-warn {
+    background: linear-gradient(60deg, #ffbc54, #ffa21a) !important;
+}
+.BG-dark {
+    background: linear-gradient(60deg, #403d3e, #000000) !important;
+    color: #fff;
+}
+.BG-light {
+    background: linear-gradient(60deg, #ffffff, #b4afb0) !important;
+    color: #202020;
+}
+.CARD-body {
+    margin-top:25px;
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+}
+@media screen and (max-width: 576px) {
+    .common {
+        width: 30% !important;
+    }
+    .guide-plan {
+        float: left;
+        width: 100%;
+    }
+}
+@media screen and (min-width: 576px) {
+    .common {
+        width: 15% !important;
+    }
+    .guide-plan {
+        float: left;
+        width: 49%;
+    }
+}

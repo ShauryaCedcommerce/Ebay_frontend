@@ -1,0 +1,96 @@
+.rsdt.rsdt-container {
+  overflow: auto;
+}
+
+.rsdt.rsdt-highlight {
+  background-color: yellow;
+}
+
+.rsdt.rsdt-sortable {
+  margin-left: 0px;
+}
+
+.rsdt.rsdt-sortable-icon:after {
+  font-size: 20px;
+  font-style: normal;
+  content: "\21D5";
+  cursor: pointer;
+
+}
+
+.rsdt.rsdt-sortable-asc:after {
+  font-size: 20px;
+  font-style: normal;
+  content: "\2193";
+  cursor: pointer;
+}
+
+.rsdt.rsdt-sortable-desc:after {
+  font-size: 20px;
+  font-style: normal;
+  content: "\2191";
+  cursor: pointer;
+}
+
+table {
+  font-size: 13px !important;
+}
+.read-more-button {
+  color: #00bcd4 !important;
+  cursor: pointer;
+}
+.read-more-button:hover {
+  color: #08d442 !important;
+  cursor: pointer;
+}
+body::-webkit-scrollbar {
+  width: 5px;
+}
+
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+.scroll {
+  height: 100px;
+  overflow: auto;
+  filter: sepia(100%) saturate(60%) grayscale(200%) contrast(140%) hue-rotate(56deg) invert(0%)
+}
+.scroll::-webkit-scrollbar {
+  width: 6px !important;
+  /*border-radius: 0 !important;*/
+}
+
+.scroll::-webkit-scrollbar-track {
+  /*-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);*/
+  /*border-radius: 0 !important;*/
+}
+
+.scroll::-webkit-scrollbar-thumb {
+  /*border-radius: 0 !important;*/
+  background-color: darkgrey !important;
+  outline: 1px solid slategrey !important;
+}
+
+@media screen and (max-width: 576px) {
+  .table-filers {
+    min-width: 150px !important;
+    max-width: 400px !important;
+  }
+}
+@media screen and (max-width: 1000px) and (min-width: 576px) {
+  .table-filers {
+    min-width: 180px !important;
+    max-width: 400px !important;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .table-filers {
+    max-width: 400px !important;
+    min-width: 80px !important;
+  }
+}

@@ -1,0 +1,1540 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2e099004-80b0-4101-b90f-7275c6e6533a" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.js" afterPath="$PROJECT_DIR$/src/App.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Panel/Components/configuration.js" afterPath="$PROJECT_DIR$/src/components/Panel/Components/configuration.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Panel/Components/fbaOrder.js" afterPath="$PROJECT_DIR$/src/components/Panel/Components/fbaOrder.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Panel/Components/import.js" afterPath="$PROJECT_DIR$/src/components/Panel/Components/import.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Panel/Components/products-component/new-analytics-reporting.js" afterPath="$PROJECT_DIR$/src/components/Panel/Components/products-component/new-analytics-reporting.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Panel/Components/products.js" afterPath="$PROJECT_DIR$/src/components/Panel/Components/products.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Panel/Components/profile-component/create-profile.js" afterPath="$PROJECT_DIR$/src/components/Panel/Components/profile-component/create-profile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/shared/plans/plan-body.js" afterPath="$PROJECT_DIR$/src/shared/plans/plan-body.js" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FUSProjectUsageTrigger">
+    <session id="2120582676">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="9" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.1" value="4" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.34" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="10" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="4" />
+          <entry key="gif" value="6" />
+          <entry key="html" value="22" />
+          <entry key="js" value="67" />
+          <entry key="json" value="7" />
+          <entry key="md" value="1" />
+          <entry key="png" value="1" />
+          <entry key="scss" value="1" />
+          <entry key="ts" value="28" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="4" />
+          <entry key="HTML" value="22" />
+          <entry key="Image" value="7" />
+          <entry key="JSON" value="7" />
+          <entry key="JavaScript" value="67" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="SCSS" value="1" />
+          <entry key="TypeScript" value="28" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="46" />
+          <entry key="html" value="354" />
+          <entry key="js" value="9044" />
+          <entry key="json" value="15" />
+          <entry key="ts" value="454" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="46" />
+          <entry key="HTML" value="354" />
+          <entry key="JSON" value="15" />
+          <entry key="JavaScript" value="9044" />
+          <entry key="TypeScript" value="454" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts">
+        <counts>
+          <entry key="TypeScriptServerServiceImpl" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-1309528735">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="js" value="22" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JavaScript" value="22" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="js" value="307" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JavaScript" value="307" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="omni-importer" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="environment.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/environments/environment.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="products.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/Panel/Components/products.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="775" column="33" lean-forward="false" selection-start-line="775" selection-start-column="33" selection-end-line="775" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="import.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Panel/Components/import.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="16830">
+              <caret line="765" column="68" lean-forward="false" selection-start-line="765" selection-start-column="68" selection-end-line="765" selection-end-column="68" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="configuration.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Panel/Components/configuration.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="8074">
+              <caret line="367" column="31" lean-forward="false" selection-start-line="367" selection-start-column="31" selection-end-line="367" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="create-profile.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Panel/Components/profile-component/create-profile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="9196">
+              <caret line="443" column="41" lean-forward="false" selection-start-line="443" selection-start-column="41" selection-end-line="443" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>selectedAttribute</find>
+      <find>applyDelayForColumnFilter</find>
+      <find>store</find>
+      <find>zoom</find>
+      <find>30</find>
+      <find>like</find>
+      <find>data1</find>
+      <find>uploader</find>
+      <find>label_mp_array</find>
+      <find>Store</find>
+      <find>Doughnut</find>
+      <find>News</find>
+      <find>NewsLatest Features</find>
+      <find>Upload</find>
+      <find>Save</find>
+      <find>DatePicker</find>
+      <find>Currently Running Processes</find>
+      <find>Badge</find>
+      <find>CANCELLED</find>
+      <find>data</find>
+      <find>Cancelled</find>
+      <find>main_price_temp</find>
+      <find>handleChange</find>
+      <find>Safa</find>
+      <find>Left</find>
+      <find>reque</find>
+      <find>Product to be import by custom date</find>
+      <find>Currency Converter / Price Updater</find>
+      <find>Upload specific product on Shopify</find>
+      <find>Bulk Up</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>processing_status</replace>
+      <replace>financial_status</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src</dir>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/node_modules/react-chartjs-2/es/index.js" />
+        <option value="$PROJECT_DIR$/src/components/Panel/Components/apps-component/connected-accounts.js" />
+        <option value="$PROJECT_DIR$/src/shared/skeleton.js" />
+        <option value="$PROJECT_DIR$/src/components/Panel/Components/products-component/vieworderfba-products.js" />
+        <option value="$PROJECT_DIR$/src/components/Panel/Components/orders/fbaOrder.js" />
+        <option value="$PROJECT_DIR$/src/components/Panel/Components/vieworderfba-products.js" />
+        <option value="$PROJECT_DIR$/src/components/Panel/Components/orders/vieworderfba-products.js" />
+        <option value="$PROJECT_DIR$/src/components/Panel/panel.css" />
+        <option value="$PROJECT_DIR$/src/components/Panel/Layout/header.css" />
+        <option value="$PROJECT_DIR$/src/components/Panel/functions.js" />
+        <option value="$PROJECT_DIR$/src/components/Panel/Layout/header.js" />
+        <option value="$PROJECT_DIR$/src/shared/app/fba-form.js" />
+        <option value="$PROJECT_DIR$/src/components/Panel/Components/plans-component/current-plan.js" />
+        <option value="$PROJECT_DIR$/src/shared/app/install-apps.js" />
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/src/components/Panel/Components/queued_task.js" />
+        <option value="$PROJECT_DIR$/public/.htaccess" />
+        <option value="$PROJECT_DIR$/src/components/Panel/Components/import-component/FileMapping.js" />
+        <option value="$PROJECT_DIR$/src/components/Panel/Components/apps-component/install-app.js" />
+        <option value="$PROJECT_DIR$/src/components/Panel/Components/import-component/EbayAffiliate.js" />
+        <option value="$PROJECT_DIR$/src/components/Panel/Components/import-component/fileimporter.js" />
+        <option value="$PROJECT_DIR$/src/components/other/private_policy.js" />
+        <option value="$PROJECT_DIR$/src/components/Panel/Components/products-component/view-products.js" />
+        <option value="$PROJECT_DIR$/src/components/Panel/Components/import-component/fileimporterbulkupdate.js" />
+        <option value="$PROJECT_DIR$/src/components/Panel/Components/products-component/new-analytics-reporting.css" />
+        <option value="$PROJECT_DIR$/src/components/Panel/Components/vieworderfba.js" />
+        <option value="$PROJECT_DIR$/src/shared/smart-table/SmartDataTable.js" />
+        <option value="$PROJECT_DIR$/src/shared/smartTable/filter.js" />
+        <option value="$PROJECT_DIR$/src/components/Panel/Components/help-component/report-issue.js" />
+        <option value="$PROJECT_DIR$/src/components/Panel/Components/editorderfba.js" />
+        <option value="$PROJECT_DIR$/src/shared/smartTable/SmartDataTable.js" />
+        <option value="$PROJECT_DIR$/src/components/Panel/Components/profile-component/view-profile.js" />
+        <option value="$PROJECT_DIR$/src/components/Panel/Components/static-functions.js" />
+        <option value="$PROJECT_DIR$/src/components/Panel/Components/plans-component/plan.css" />
+        <option value="$PROJECT_DIR$/src/shared/app/amazon-form.js" />
+        <option value="$PROJECT_DIR$/src/components/Panel/Components/switch.css" />
+        <option value="$PROJECT_DIR$/src/components/Panel/Components/plans.js" />
+        <option value="$PROJECT_DIR$/src/components/Panel/Components/faq.js" />
+        <option value="$PROJECT_DIR$/src/components/Panel/panel.js" />
+        <option value="$PROJECT_DIR$/src/shared/app/apps.js" />
+        <option value="$PROJECT_DIR$/src/components/Panel/Components/dashboard.js" />
+        <option value="$PROJECT_DIR$/src/components/Panel/Components/profile-component/create-profile.js" />
+        <option value="$PROJECT_DIR$/src/components/Panel/Components/products-component/new-analytics-reporting.js" />
+        <option value="$PROJECT_DIR$/src/components/Panel/Components/fbaOrder.js" />
+        <option value="$PROJECT_DIR$/src/shared/plans/plan-body.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/environments/environment.js" />
+        <option value="$PROJECT_DIR$/src/components/Panel/Components/configuration.js" />
+        <option value="$PROJECT_DIR$/src/components/Panel/Components/import.js" />
+        <option value="$PROJECT_DIR$/src/components/Panel/Components/products.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/demo-plan/node_modules" />
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-3" />
+    <option name="width" value="1372" />
+    <option name="height" value="738" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="omni-importer">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="omni-importer">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="omni-importer">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="components">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Panel">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="omni-importer">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="components">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="omni-importer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="omni-importer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="omni-importer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="omni-importer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="omni-importer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="omni-importer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shared" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="omni-importer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="omni-importer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shared" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plans" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="omni-importer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="omni-importer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shared" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="omni-importer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="omni-importer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Panel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="omni-importer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="omni-importer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Panel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="omni-importer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="omni-importer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Panel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="queued-tasks-component" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="omni-importer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="omni-importer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Panel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="profile-component" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="omni-importer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="omni-importer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="other" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="omni-importer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="omni-importer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Auth" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="omni-importer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="omni-importer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Auth" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="omni-importer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="omni-importer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="omni-importer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="omni-importer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo-plan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="omni-importer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="omni-importer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo-plan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/task1-login" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+    <property name="nodejs_interpreter_path" value="/usr/bin/node" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/cedcoss/omni-importer/src/shared/app/fba-form.js" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/img" />
+      <recent name="$PROJECT_DIR$/src/components/Panel/Components" />
+      <recent name="$PROJECT_DIR$/src/assets/background" />
+      <recent name="$PROJECT_DIR$/src/components/Panel/Components/orders" />
+      <recent name="$PROJECT_DIR$/src/shared" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/Panel/Components/current-plan" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2e099004-80b0-4101-b90f-7275c6e6533a" name="Default" comment="" />
+      <created>1530702277621</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1530702277621</updated>
+      <workItem from="1530702279153" duration="768000" />
+      <workItem from="1534862358235" duration="1060000" />
+      <workItem from="1534912528592" duration="14584000" />
+      <workItem from="1534997426580" duration="9352000" />
+      <workItem from="1535009429364" duration="4152000" />
+      <workItem from="1535087961828" duration="508000" />
+      <workItem from="1535112421785" duration="1360000" />
+      <workItem from="1535114199163" duration="6257000" />
+      <workItem from="1535170529780" duration="47000" />
+      <workItem from="1535352975464" duration="13109000" />
+      <workItem from="1535429537287" duration="32000" />
+      <workItem from="1539751149437" duration="3695000" />
+      <workItem from="1550671453543" duration="2354000" />
+      <workItem from="1550742243469" duration="3843000" />
+      <workItem from="1550761833081" duration="639000" />
+      <workItem from="1556790604906" duration="2577000" />
+      <workItem from="1556887376155" duration="3061000" />
+      <workItem from="1556942977764" duration="23318000" />
+      <workItem from="1557201115939" duration="29178000" />
+      <workItem from="1557237452190" duration="9786000" />
+      <workItem from="1557560077526" duration="29000000" />
+      <workItem from="1557836115821" duration="98112000" />
+      <workItem from="1558093543380" duration="59538000" />
+      <workItem from="1558438925652" duration="3141000" />
+      <workItem from="1558502536379" duration="139000" />
+      <workItem from="1558505886937" duration="1504000" />
+      <workItem from="1558520661596" duration="1042000" />
+      <workItem from="1558698916887" duration="5241000" />
+      <workItem from="1559199919318" duration="625000" />
+      <workItem from="1559285050659" duration="634000" />
+      <workItem from="1559372731433" duration="2764000" />
+      <workItem from="1559376636080" duration="839000" />
+      <workItem from="1559884839422" duration="20000" />
+      <workItem from="1559885091804" duration="21760000" />
+      <workItem from="1560141194242" duration="51417000" />
+      <workItem from="1560834122586" duration="43107000" />
+      <workItem from="1562042150613" duration="13429000" />
+      <workItem from="1562910789900" duration="8166000" />
+      <workItem from="1562928975598" duration="32544000" />
+      <workItem from="1563514573733" duration="19602000" />
+      <workItem from="1563632420245" duration="4054000" />
+      <workItem from="1563873582814" duration="5573000" />
+      <workItem from="1563888976089" duration="1702000" />
+      <workItem from="1563891433890" duration="83000" />
+      <workItem from="1563953460280" duration="33472000" />
+      <workItem from="1564379008204" duration="82000" />
+      <workItem from="1564664249793" duration="51230000" />
+      <workItem from="1565419504737" duration="15000" />
+      <workItem from="1565423012780" duration="4113000" />
+      <workItem from="1565608091620" duration="1416000" />
+      <workItem from="1565678091387" duration="570000" />
+      <workItem from="1565779687535" duration="3910000" />
+      <workItem from="1566035300880" duration="16000" />
+      <workItem from="1566191462439" duration="10345000" />
+      <workItem from="1566220725863" duration="20574000" />
+      <workItem from="1566399747625" duration="57853000" />
+      <workItem from="1567144534068" duration="2356000" />
+      <workItem from="1567159822179" duration="8006000" />
+      <workItem from="1567484365513" duration="18541000" />
+      <workItem from="1567591305800" duration="1079000" />
+      <workItem from="1567661779185" duration="6606000" />
+      <workItem from="1567675906865" duration="27266000" />
+      <workItem from="1568109586651" duration="15753000" />
+      <workItem from="1568294597536" duration="15824000" />
+      <workItem from="1568358636248" duration="9063000" />
+      <workItem from="1568608852160" duration="14667000" />
+      <workItem from="1568887296031" duration="34244000" />
+      <workItem from="1569490908309" duration="15570000" />
+      <workItem from="1569822318530" duration="43783000" />
+      <workItem from="1570528605094" duration="12325000" />
+      <workItem from="1571112994627" duration="1246000" />
+      <workItem from="1571120558002" duration="913000" />
+      <workItem from="1571205092747" duration="3094000" />
+      <workItem from="1571293124903" duration="2374000" />
+      <workItem from="1571315253574" duration="621000" />
+      <workItem from="1571315897023" duration="4056000" />
+      <workItem from="1571808424239" duration="4398000" />
+      <workItem from="1572343526537" duration="21437000" />
+      <workItem from="1572432173174" duration="51885000" />
+      <workItem from="1573016790913" duration="19867000" />
+      <workItem from="1573648426472" duration="2034000" />
+      <workItem from="1574749295390" duration="2525000" />
+      <workItem from="1574950263258" duration="9743000" />
+      <workItem from="1575287286769" duration="1221000" />
+      <workItem from="1575352001125" duration="43670000" />
+      <workItem from="1576562427816" duration="26152000" />
+      <workItem from="1577950088528" duration="32119000" />
+      <workItem from="1578290570306" duration="5079000" />
+      <workItem from="1578483911576" duration="2920000" />
+      <workItem from="1578562790067" duration="1211000" />
+      <workItem from="1578570665194" duration="2230000" />
+      <workItem from="1578577872959" duration="1536000" />
+      <workItem from="1578639132098" duration="10581000" />
+      <workItem from="1579158910682" duration="5380000" />
+      <workItem from="1579167650755" duration="6497000" />
+      <workItem from="1579176298678" duration="7000" />
+      <workItem from="1579259408826" duration="919000" />
+      <workItem from="1579496362058" duration="3281000" />
+      <workItem from="1580220161911" duration="9385000" />
+      <workItem from="1580731769093" duration="2058000" />
+      <workItem from="1580795871525" duration="1188000" />
+      <workItem from="1580985457658" duration="631000" />
+      <workItem from="1581318968958" duration="6426000" />
+      <workItem from="1581423435197" duration="10344000" />
+      <workItem from="1581598293784" duration="1268000" />
+      <workItem from="1581753969377" duration="1242000" />
+      <workItem from="1582203268327" duration="77000" />
+      <workItem from="1582263921844" duration="6801000" />
+      <workItem from="1583224399166" duration="1263000" />
+      <workItem from="1583317728463" duration="17847000" />
+      <workItem from="1583400969985" duration="3036000" />
+      <workItem from="1584004248752" duration="356000" />
+      <workItem from="1584006234202" duration="680000" />
+      <workItem from="1584082708508" duration="29000" />
+      <workItem from="1584348791713" duration="5687000" />
+      <workItem from="1584429419516" duration="16000" />
+      <workItem from="1584596965163" duration="6898000" />
+      <workItem from="1584684393267" duration="7269000" />
+      <workItem from="1584969146398" duration="624000" />
+      <workItem from="1585033977998" duration="4271000" />
+      <workItem from="1585129626734" duration="21039000" />
+      <workItem from="1585310038775" duration="12202000" />
+      <workItem from="1585466752349" duration="610000" />
+      <workItem from="1585639332180" duration="4139000" />
+      <workItem from="1585663654854" duration="1195000" />
+      <workItem from="1585740466505" duration="1137000" />
+      <workItem from="1585819775861" duration="2930000" />
+      <workItem from="1585834527203" duration="1464000" />
+      <workItem from="1586155350173" duration="457000" />
+      <workItem from="1586250378801" duration="609000" />
+      <workItem from="1586464686972" duration="6005000" />
+      <workItem from="1586586253624" duration="606000" />
+      <workItem from="1587042438871" duration="624000" />
+      <workItem from="1587152051795" duration="1249000" />
+      <workItem from="1587635159183" duration="4285000" />
+      <workItem from="1587967767116" duration="9768000" />
+      <workItem from="1588000605959" duration="1993000" />
+      <workItem from="1588053636636" duration="2086000" />
+      <workItem from="1588081025008" duration="1802000" />
+      <workItem from="1588133742753" duration="4158000" />
+      <workItem from="1588332225910" duration="2118000" />
+      <workItem from="1588746013867" duration="3790000" />
+      <workItem from="1588938349222" duration="8471000" />
+      <workItem from="1588998479167" duration="2479000" />
+      <workItem from="1589174550750" duration="6057000" />
+      <workItem from="1589185134263" duration="8098000" />
+      <workItem from="1589259201815" duration="18000" />
+      <workItem from="1589280981583" duration="2059000" />
+      <workItem from="1589448134920" duration="626000" />
+      <workItem from="1589788094407" duration="3694000" />
+      <workItem from="1589809785309" duration="3442000" />
+      <workItem from="1590177042177" duration="1971000" />
+      <workItem from="1590401342350" duration="5751000" />
+      <workItem from="1590582580589" duration="11776000" />
+      <workItem from="1590614735612" duration="2698000" />
+      <workItem from="1590645778678" duration="1966000" />
+      <workItem from="1590669019731" duration="717000" />
+      <workItem from="1591101493971" duration="5026000" />
+      <workItem from="1591431184160" duration="599000" />
+      <workItem from="1591591838252" duration="2207000" />
+      <workItem from="1591711004941" duration="623000" />
+      <workItem from="1591908336506" duration="1110000" />
+      <workItem from="1591921627554" duration="1610000" />
+      <workItem from="1592193603141" duration="162000" />
+      <workItem from="1592654541673" duration="1300000" />
+      <workItem from="1592789604824" duration="3059000" />
+      <workItem from="1592805670397" duration="612000" />
+      <workItem from="1592820316626" duration="665000" />
+      <workItem from="1592834317283" duration="674000" />
+      <workItem from="1592886610034" duration="6332000" />
+      <workItem from="1592918081616" duration="2235000" />
+      <workItem from="1593071447651" duration="8636000" />
+      <workItem from="1593412453446" duration="9530000" />
+      <workItem from="1593696737327" duration="683000" />
+      <workItem from="1593785591896" duration="23202000" />
+      <workItem from="1594377354354" duration="266000" />
+      <workItem from="1594621676147" duration="5368000" />
+      <workItem from="1600010201296" duration="1903000" />
+      <workItem from="1600107733211" duration="969000" />
+      <workItem from="1600155917262" duration="2582000" />
+      <workItem from="1600329642045" duration="2371000" />
+      <workItem from="1600415970214" duration="4513000" />
+      <workItem from="1600497098846" duration="1377000" />
+      <workItem from="1600504698785" duration="1500000" />
+      <workItem from="1600674146998" duration="2398000" />
+      <workItem from="1600684980432" duration="17000" />
+      <workItem from="1600687447152" duration="200000" />
+      <workItem from="1600712233004" duration="823000" />
+      <workItem from="1600776308852" duration="2219000" />
+      <workItem from="1600846246742" duration="791000" />
+      <workItem from="1600866827748" duration="619000" />
+      <workItem from="1601025710233" duration="2507000" />
+      <workItem from="1601271595775" duration="1508000" />
+      <workItem from="1601710200501" duration="956000" />
+      <workItem from="1601895365339" duration="717000" />
+      <workItem from="1601980362525" duration="599000" />
+      <workItem from="1601990419873" duration="683000" />
+      <workItem from="1602054744080" duration="3395000" />
+      <workItem from="1602142153612" duration="1799000" />
+      <workItem from="1602237994279" duration="765000" />
+      <workItem from="1602307692010" duration="87000" />
+      <workItem from="1602310696180" duration="3090000" />
+      <workItem from="1602484452552" duration="1614000" />
+      <workItem from="1602565447715" duration="3832000" />
+      <workItem from="1602656350587" duration="416000" />
+      <workItem from="1602659961186" duration="100000" />
+      <workItem from="1602667338027" duration="2830000" />
+      <workItem from="1602741685686" duration="5264000" />
+      <workItem from="1602835800752" duration="1838000" />
+      <workItem from="1602910405032" duration="1428000" />
+      <workItem from="1602923302287" duration="627000" />
+      <workItem from="1603086838326" duration="526000" />
+      <workItem from="1603101524972" duration="1412000" />
+      <workItem from="1603208796749" duration="1241000" />
+      <workItem from="1603261997685" duration="1285000" />
+      <workItem from="1603272693303" duration="2739000" />
+      <workItem from="1603787049229" duration="1969000" />
+      <workItem from="1603864120557" duration="5156000" />
+      <workItem from="1604049025953" duration="5839000" />
+      <workItem from="1604130087664" duration="1557000" />
+      <workItem from="1604655590508" duration="739000" />
+      <workItem from="1604931688509" duration="12381000" />
+      <workItem from="1605703263533" duration="463000" />
+      <workItem from="1605765426438" duration="20671000" />
+      <workItem from="1606144371209" duration="19600000" />
+      <workItem from="1607586191723" duration="11081000" />
+      <workItem from="1607926385778" duration="7205000" />
+      <workItem from="1608042076259" duration="745000" />
+      <workItem from="1608802803753" duration="1286000" />
+      <workItem from="1609167509412" duration="36159000" />
+      <workItem from="1609338034667" duration="9599000" />
+      <workItem from="1610621555081" duration="2832000" />
+      <workItem from="1611214172053" duration="16827000" />
+      <workItem from="1611313830295" duration="9739000" />
+      <workItem from="1611566358088" duration="29131000" />
+      <workItem from="1611834119992" duration="18816000" />
+      <workItem from="1611943322035" duration="2102000" />
+      <workItem from="1612161501541" duration="17005000" />
+      <workItem from="1612506537491" duration="48316000" />
+      <workItem from="1613223645561" duration="15755000" />
+      <workItem from="1613714213813" duration="488000" />
+      <workItem from="1613715329819" duration="11077000" />
+      <workItem from="1614003648862" duration="294000" />
+      <workItem from="1614004450866" duration="213000" />
+      <workItem from="1614075573993" duration="608000" />
+      <workItem from="1614152385783" duration="628000" />
+      <workItem from="1614153510090" duration="2103000" />
+      <workItem from="1614163383342" duration="1355000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2566504000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-3" y="0" width="1372" height="738" extended-state="6" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16020864" sideWeight="0.49411765" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943144" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294702" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24888226" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4536424" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" x="0" y="24" width="1280" height="743" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20853463" sideWeight="0.5058824" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861635" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943144" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294702" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4884106" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" x="0" y="24" width="1280" height="743" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17734724" sideWeight="0.49411765" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861635" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24888226" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20853463" sideWeight="0.5058824" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/Panel/Components/profile-component/create-profile.js</url>
+          <line>1313</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="61" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/components/other/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/other/progress.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/other/private_policy.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-330">
+          <caret line="22" column="50" lean-forward="false" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-plan/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-112">
+          <caret line="47" column="12" lean-forward="true" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shared/smart-table/TableCell.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-30">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shared/formbuilder.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="27" column="36" lean-forward="true" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shared/smart-table/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shared/smart-table/Paginate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-30">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shared/smart-table/SmartDataTable.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-550">
+          <caret line="32" column="14" lean-forward="false" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shared/smartTable/Paginate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shared/smartTable/filter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="33" column="33" lean-forward="false" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@types/react/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="436" column="8" lean-forward="false" selection-start-line="436" selection-start-column="8" selection-end-line="436" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Panel/Components/switch.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="51" column="28" lean-forward="false" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Panel/Components/plans.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2442">
+          <caret line="111" column="25" lean-forward="false" selection-start-line="111" selection-start-column="25" selection-end-line="111" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shared/app/amazon-form.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1188">
+          <caret line="70" column="94" lean-forward="false" selection-start-line="70" selection-start-column="41" selection-end-line="70" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Panel/Components/faq.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13574">
+          <caret line="636" column="109" lean-forward="false" selection-start-line="636" selection-start-column="109" selection-end-line="636" selection-end-column="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/csv.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/notify.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shared/app/apps.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="84" column="31" lean-forward="false" selection-start-line="84" selection-start-column="31" selection-end-line="84" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Panel/Components/help-component/report-issue.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="79" column="62" lean-forward="false" selection-start-line="79" selection-start-column="40" selection-end-line="79" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Panel/Components/dashboard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11968">
+          <caret line="574" column="25" lean-forward="false" selection-start-line="574" selection-start-column="25" selection-end-line="574" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Panel/Components/profiling.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="92" column="28" lean-forward="false" selection-start-line="92" selection-start-column="28" selection-end-line="92" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shared/smartTable/SmartDataTable.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="640" column="36" lean-forward="true" selection-start-line="640" selection-start-column="36" selection-end-line="640" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Panel/Components/products-component/new-analytics-reporting.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/font-awesome/css/font-awesome.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="3" column="15851" lean-forward="false" selection-start-line="3" selection-start-column="15851" selection-end-line="3" selection-end-column="15851" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Panel/panel.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="36" column="4" lean-forward="false" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Panel/Components/static-functions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/chart.js/dist/Chart.bundle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="19270" column="9" lean-forward="false" selection-start-line="19270" selection-start-column="9" selection-end-line="19270" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-chartjs-2/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shared/skeleton.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/prettier/parser-yaml.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="0" column="58219" lean-forward="false" selection-start-line="0" selection-start-column="58219" selection-end-line="0" selection-end-column="58219" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Panel/Components/queued-tasks-component/activities.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="29" column="50" lean-forward="false" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Panel/Components/queued_task.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3630">
+          <caret line="185" column="41" lean-forward="false" selection-start-line="185" selection-start-column="41" selection-end-line="185" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shared/plans/plan-body.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="46" column="40" lean-forward="false" selection-start-line="46" selection-start-column="40" selection-end-line="46" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Panel/Components/products-component/new-analytics-reporting.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="347" column="28" lean-forward="false" selection-start-line="347" selection-start-column="28" selection-end-line="347" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Panel/Components/fbaOrder.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="369" column="57" lean-forward="false" selection-start-line="369" selection-start-column="57" selection-end-line="369" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Panel/panel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="69" column="17" lean-forward="false" selection-start-line="69" selection-start-column="16" selection-end-line="69" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162074">
+          <caret line="7367" column="24" lean-forward="false" selection-start-line="7367" selection-start-column="23" selection-end-line="7367" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/registerServiceWorker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="220" column="16" lean-forward="false" selection-start-line="220" selection-start-column="16" selection-end-line="220" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Panel/Components/apps.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1091">
+          <caret line="125" column="17" lean-forward="false" selection-start-line="125" selection-start-column="16" selection-end-line="125" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/request.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1474">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Panel/Components/profile-component/create-profile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9196">
+          <caret line="443" column="41" lean-forward="false" selection-start-line="443" selection-start-column="41" selection-end-line="443" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Panel/Components/import.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16830">
+          <caret line="765" column="68" lean-forward="false" selection-start-line="765" selection-start-column="68" selection-end-line="765" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Panel/Components/configuration.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8074">
+          <caret line="367" column="31" lean-forward="false" selection-start-line="367" selection-start-column="31" selection-end-line="367" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/environments/environment.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Panel/Components/products.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="775" column="33" lean-forward="false" selection-start-line="775" selection-start-column="33" selection-end-line="775" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

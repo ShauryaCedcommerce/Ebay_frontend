@@ -1,0 +1,12 @@
+<IfModule mod_rewrite.c>
+
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d 
+RewriteRule . index.html
+
+Header set Content-Security-Policy "frame-ancestors 'self' https://*; frame-src 'self' https://*;script-src https://* 'unsafe-inline' 'unsafe-eval' blob: data: 'self'; style-src data: blob: 'unsafe-inline' *;"
+
+
+</IfModule>

@@ -1,0 +1,161 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Emerald Silk Gown",
+      "price": "$9055.00",
+      "sku": 124689,
+      "quantity": 140,
+      "sales": "$122,500.00"
+    },
+    {
+      "id": 2,
+      "title": "Mauve Cashmere Scarf",
+      "price": "$230.00",
+      "sku": 124533,
+      "quantity": 83,
+      "sales": "$19,090.00"
+    },
+    {
+      "id": 3,
+      "title": "Navy Merino Wool Blazer with khaki chinos and yellow belt",
+      "price": "$445.00",
+      "sku": 124518,
+      "quantity": 32,
+      "sales": "$14,240.00"
+    },
+    {
+      "id": 4,
+      "title": "Emerald Silk Gown22",
+      "price": "$9055.00",
+      "sku": 124689,
+      "quantity": 140,
+      "sales": "$122,500.00"
+    },
+    {
+      "id": 5,
+      "title": "Mauve Cashmere Scarf22",
+      "price": "$230.00",
+      "sku": 124533,
+      "quantity": 83,
+      "sales": "$19,090.00"
+    },
+    {
+      "id": 6,
+      "title": "Navy Merino Wool Blazer with khaki chinos and yellow belt22",
+      "price": "$445.00",
+      "sku": 124518,
+      "quantity": 32,
+      "sales": "$14,240.00"
+    }
+  ],
+  "profiles": [
+    {
+      "id": 1,
+      "name": "Profile 1",
+      "source": "Amazon",
+      "target": "Shopify",
+      "total_products": 25
+    },
+    {
+      "id": 2,
+      "name": "Profile 2",
+      "source": "Ebay",
+      "target": "Shopify",
+      "total_products": 41
+    },
+    {
+      "id": 3,
+      "name": "Profile 3",
+      "source": "Ebay",
+      "target": "Magento",
+      "total_products": 32
+    }
+  ],
+  "forms": [
+    {
+      "key": "title",
+      "title": "Title",
+      "value": "",
+      "type": "textfield"
+    },
+    {
+      "key": "price",
+      "title": "Price",
+      "value": "",
+      "type": "textfield"
+    },
+    {
+      "key": "currency",
+      "title": "Currency",
+      "value": "",
+      "type": "select",
+      "options": [
+        {
+          "label": "USD",
+          "value": "$"
+        },
+        {
+          "label": "INR",
+          "value": "INR"
+        },
+        {
+          "label": "EURO",
+          "value": "ER"
+        }
+      ]
+    },
+    {
+      "key": "quantity",
+      "title": "Quantity",
+      "value": "",
+      "type": "textfield"
+    },
+    {
+      "key": "sales",
+      "title": "Sales",
+      "value": "",
+      "type": "textfield"
+    },
+    {
+      "key": "check",
+      "title": "Check Options",
+      "value": [],
+      "type": "checkbox",
+      "options": [
+        {
+          "label": "Option 1",
+          "value": "opt1"
+        },
+        {
+          "label": "Option 2",
+          "value": "opt2"
+        },
+        {
+          "label": "Option 3",
+          "value": "opt3"
+        }
+      ]
+    },
+    {
+      "key": "radio",
+      "title": "Radio Options",
+      "value": "",
+      "type": "radio",
+      "options": [
+        {
+          "label": "Radio option 1",
+          "value": "opt1"
+        },
+        {
+          "label": "Radio option 2",
+          "value": "opt2"
+        },
+        {
+          "label": "Radio option 3",
+          "value": "opt3"
+        }
+      ]
+    }
+  ]
+}

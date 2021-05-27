@@ -1,0 +1,135 @@
+.app-panel {
+    margin-top: 52px;
+}
+
+.app-panel-container {
+    height: auto !important;
+    background-color: #F4F6F8;
+    min-height: 620px;
+}
+
+.app-header {
+    /*position: relative;*/
+    display: inline-block;
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.app-header-notice {
+    /*position: relative;*/
+    display: inline-block;
+    z-index: 99;
+    top: auto;
+    left: 0;
+    width: 100%;
+}
+
+@media (max-width: 400px) {
+    .app-panel-container {
+        min-height: 380px;
+    }
+}
+
+.like:hover{
+    color:#ef595b;
+}
+.dislike:hover{
+    color:#ef595b;
+}
+/*****************************   Card CSS   *******************************************/
+.CARD {
+    position:relative;
+    margin-top:5%;
+    border-radius:5px;
+    box-shadow: 0 4px 10px -5px #777777;
+    border: 1px solid #cccccc;
+}
+.CARD-title-small {
+    position:absolute;
+    width:30%;
+    min-height: 80px;
+    padding: 10px 10px 10px;
+    max-height: 100px;
+    top:-50px;
+    overflow: auto;
+    left:5%;
+    background-color: #9c27b0;
+    color: #fff;
+    border-radius:5px;
+    box-shadow: 0 7px 10px -5px #777777;
+    transition-duration: 200ms;
+}
+.CARD:hover .CARD-title-small {
+    top:-70px;
+    transition-duration: 200ms;
+}
+.CARD:hover .CARD-title {
+    top:-70px;
+    transition-duration: 200ms;
+}
+.CARD-title {
+    position:absolute;
+    color: #fff;
+    width:80%;
+    min-height: 80px;
+    padding: 10px 10px 10px;
+    max-height: 100px;
+    top:-50px;
+    overflow: auto;
+    left:10%;
+    background-color:#00acc1;
+    border-radius:5px;
+    box-shadow: 0 7px 10px -5px #777777;
+    transition-duration: 200ms;
+}
+.BG-primary {
+    background: linear-gradient(60deg, #ab47bc, #8e24aa) !important;
+}
+.BG-info {
+    background: linear-gradient(60deg, #3adaee, #00d3ee) !important;
+}
+.BG-success {
+    background: linear-gradient(60deg, #68ee6a, #00ee08) !important;
+}
+.BG-danger {
+    background: linear-gradient(60deg, #ef595b, #e53935) !important;
+}
+.BG-warn {
+    background: linear-gradient(60deg, #ffbc54, #ffa21a) !important;
+}
+.BG-dark {
+    background: linear-gradient(60deg, #403d3e, #000000) !important;
+    color: #fff;
+}
+.BG-light {
+    background: linear-gradient(60deg, #ffffff, #b4afb0) !important;
+    color: #202020;
+}
+.CARD-body {
+    margin-top:25px;
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.app-header:hover .dropdown-content {
+    display: block;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+

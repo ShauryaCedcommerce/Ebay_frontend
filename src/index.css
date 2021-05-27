@@ -1,0 +1,526 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+h2 {
+    padding: 0px 0px;
+    margin: 0px;
+}
+
+.collapsible-ebay {
+    cursor: pointer;
+}
+
+.collapsible-ebay:Hover {
+    background-color: #f1f1f1;
+}
+
+.pricelabel {
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.modaldatalabel {
+    display: block;
+    font-size: 22px;
+    font-weight: 550;
+}
+
+.title_header {
+    font-size: 25px;
+    font-weight: 550;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#titlemodal {
+    width: 100%;
+    display: block;
+    padding: 10px 15px;
+    margin: 10px 0px;
+    font-size: 20px;
+    font-weight: 550;
+    border: none;
+    background-color: #d9fffd;
+    border-radius: 15px 15px;
+    color: black;
+}
+
+#titlemodal:focus {
+    outline: none;
+}
+
+.flexclassdiv {
+    display: flex;
+    width: 100%;
+    margin: 25px 0px;
+}
+
+.flexunderdiv {
+    display: block;
+    margin-right: 90px;
+}
+
+#protype,
+#marketplacemodal,
+#vensermodalid,
+#typepro,
+#listingtypemodalid {
+    width: 100%;
+    padding: 10px 10px;
+    margin: 15px 0px;
+    border: none;
+    background-color: #d9fffd;
+    border-radius: 15px 15px;
+    font-size: 18px;
+    font-weight: 550;
+    color: black;
+}
+
+#protype:focus,
+#marketplacemodal:focus,
+#vensermodalid:focus,
+#typepro:focus,
+#listingtypemodalid:focus {
+    outline: none;
+}
+
+#modalimagemain {
+    display: block;
+    width: 30%;
+    height: 150px;
+}
+
+#Studiomodal,
+#Brandmodal,
+#skumodal,
+#pricemodal,
+#Titlemodal,
+#quantitymodal {
+    width: 100%;
+    padding: 10px 10px;
+    margin: 15px 0px;
+    border: none;
+    background-color: #d9fffd;
+    border-radius: 15px 15px;
+    font-size: 18px;
+    font-weight: 550;
+    color: black;
+}
+
+#Studiomodal:focus,
+#Brandmodal:focus,
+#skumodal:focus,
+#pricemodal:focus,
+#Titlemodal:focus,
+#quantitymodal:focus {
+    outline: none;
+}
+
+#imagemainmodal {
+    display: block;
+    width: 70%;
+    height: 200px;
+    margin: 0px;
+}
+
+.imagefixdiv {
+    display: block;
+    width: 50%;
+    margin-right: 60px;
+}
+
+.scrollptag {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.cardclsmodalsection {
+    margin: 10px 0px;
+}
+
+#textareamodal {
+    width: 100%;
+    display: block;
+    height: 180px;
+    font-size: 18px;
+    font-weight: 550;
+    background-color: #d9fffd;
+    color: black;
+    border-radius: 15px 15px;
+    padding: 5px 10px;
+}
+
+#textareamodal:focus {
+    outline: none;
+}
+
+.plansectionyearly {
+    display: flex;
+    width: 100%;
+    margin: 30px 0px;
+    align-self: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.monthlyyearlyheading {
+    display: block;
+    font-size: 25px;
+    font-weight: 550;
+    margin: 0px 10px;
+}
+
+.marqueeslide {
+    display: block;
+    /* background-color: black; */
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.marqueeslide a {
+    font-size: 20px;
+    font-weight: 550;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* color: rgb(252, 89, 89);
+   */
+    color: #71ee1e;
+}
+
+.marqueeslide a:hover {
+    color: rgb(123, 28, 247);
+}
+
+#editbtnmargin {
+    margin-right: 8px;
+}
+
+
+/* #mainmaodalsectioneditbtn{
+  border-radius: 20px ;
+} */
+
+
+/* .Polaris-Modal-Dialog__Modal{
+  border-radius: 25px;
+} */
+
+
+/* .Polaris-Modal-Header{
+   background:linear-gradient(to right, rgb(243, 172, 172) , rgb(255, 255, 49));  
+   background-repeat: no-repeat;
+   background-position: center center; 
+   width: 100%;
+   -webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+
+
+}
+.Polaris-Modal__Body{
+  background:linear-gradient(to right, rgb(243, 172, 172) , rgb(255, 255, 49));
+  background-repeat: no-repeat;
+  background-position: center center; 
+  width: 100%;
+  -webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+
+  
+}
+.Polaris-Modal-Footer{
+
+}
+.Polaris-Modal-Dialog__Container{
+background-color: rgb(0,0,0,0.80);
+
+} */
+
+
+/* .Polaris-Modal-Dialog__Modal{
+
+} */
+
+.titlemodalchange {
+    background-color: #9b9b9e;
+    padding: 15px 18px;
+    border-radius: 15px 15px;
+    height: 100px;
+}
+
+.titlemodalchange p {
+    margin: 10px 0px;
+    font-weight: 550;
+}
+
+.titlemodalchangenew {
+    display: block;
+    height: 50px;
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+.titlemodalchangenew p {
+    font-size: 20px;
+    font-weight: 550;
+}
+
+.Polaris-Modal-Dialog__Container {
+    background-color: rgb(0, 0, 0, 0.80);
+}
+
+#hrsed2 {
+    margin: 0px 0px;
+    display: block;
+    padding: 0px 0px;
+    font-size: 22px;
+    font-weight: 550px;
+}
+
+#hrsed {
+    margin: 0px 0px;
+    display: block;
+    padding: 0px 0px;
+    margin-bottom: 15px;
+    font-size: 26px;
+    font-weight: 550px;
+}
+
+.Polaris-Modal-Header {
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+
+.Polaris-Modal-Header__Title h2 {
+    background: none;
+    padding: 0px 0px;
+}
+
+#Textchangecolour {
+    display: block;
+    width: 100%;
+    background-color: #9b9b9E;
+    border-radius: 12px 12px;
+    padding: 10px 4px;
+}
+
+.deletebtniconplus {
+    margin-left: 4px;
+}
+
+.editicnclsbtn {
+    margin-left: 4px;
+}
+
+#idcusermodal {
+    cursor: pointer;
+}
+
+.react-confirm-alert-button-group button:first-child {
+    display: block;
+    background-color: #d53417;
+    color: white;
+    font-size: 16px;
+    font-weight: 555;
+    padding: 3px 30px;
+}
+
+.react-confirm-alert-button-group button:nth-child(2) {
+    display: block;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    font-size: 16px;
+    font-weight: 555;
+    padding: 3px 30px;
+}
+
+.react-confirm-alert-body h1 {
+    font-weight: 555;
+    font-size: 20px;
+}
+
+.editiconbtn {
+    color: #6b6beb;
+    cursor: pointer;
+}
+
+.deleteiconbtn {
+    color: #d53417;
+    cursor: pointer;
+}
+
+.markimg {
+    padding: 2% 0%;
+}
+
+#rowimgmargin {
+    margin: 0px 0px !important;
+    padding: 0px 0px;
+}
+
+.marktestimg {
+    /* padding:0px 0px ; */
+    margin: 3% 0%;
+}
+
+#heightweightimg {
+    margin-top: 10%;
+    width: 100%;
+    height: 250px;
+}
+
+.fleximagedashborad {
+    display: flex;
+    height: 408px;
+    z-index: 500;
+}
+
+@media (max-width: 46.5em) {
+    .fleximagedashborad {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    #imageclasscheckfistImage {
+        display: block;
+        width: 100%;
+    }
+    .checkflexclsinputfield {
+        display: block;
+        /* width: 100%; */
+    }
+}
+
+.vl {
+    border-left: 3px solid rgb(239, 238, 240);
+    height: 100%;
+}
+
+#imageclasscheckfistImage {
+    height: 100%;
+    z-index: 500;
+}
+
+.markmargingimg {
+    padding: 1% 1%;
+    margin-bottom: 1%;
+}
+
+#imageclasscheck {
+    /* width: 100%; */
+    margin-left: 10px;
+    height: 90%;
+}
+
+.testerselect {
+    margin-top: 5%;
+}
+
+.producttitle {
+    width: 100%;
+    padding: 1% 2%;
+    font-size: 17px;
+    font-weight: 520;
+}
+
+.descriptiontextarea {
+    width: 100%;
+    height: 300px;
+    padding: 1% 2%;
+    font-size: 15px;
+    color: #7a7a7a;
+    font-weight: 520;
+    border: 1px solid rgb(214, 214, 214);
+    border-radius: 1% 1%;
+}
+
+#texttareaiddescription {
+    width: 100%;
+    height: 300px;
+    /* border:1px solid #5563c1; */
+}
+
+#texttareaiddescription:focus {
+    -webkit-appearance: none;
+    outline: none;
+    border: 2px solid #5959db !important;
+    /* z-index: -500 !important; */
+}
+
+.allproductlabelcsstype {
+    width: 48%;
+}
+.iconlinktoebayproduct{
+    float: left;
+    cursor: pointer;
+}
+/* .iconlinktoebayproduct a Polaris-Icon Polaris-Icon--isColored .Polaris-Icon__Svg{
+    color: blue;
+} */
+.link_product_str .Polaris-Icon Polaris-Icon--isColored .Polaris-Icon__Svg{
+    color: #5959db;
+}
+#iconflexdisplayid{
+    display: flex;
+}
+.iconmarginclass{
+    margin: 0px 2%;
+}
+.productupdatebtncls {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 3%;
+}
+
+.marginpaddingcancelbtn {
+    margin-right: 1%;
+}
+
+.allproductlabelcsstitle {
+    width: 48%;
+    margin-right: 4%;
+}
+
+.checkflexclsinputfield {
+    display: flex;
+    width: 100%;
+    padding: 2% 0%;
+}
+
+#textareaidineditsection {
+    padding: 2% 0%;
+}
+
+.displaytextcls {
+    margin: 1% 0%;
+}
+.displaytextcls p{
+    font-size: 26px;
+}
+
+#testimagesection {
+    display: flex;
+    width: 100%;
+    /* padding: 2% 0%; */
+    padding: 0% 0%;
+    margin: 2% 0%;
+}
+
+.dropzoneimageid {
+    display: block;
+}
+
+.Polaris-DropZone__Container {
+    width: 300px;
+    height: 280px;
+}
+
+#tetimg23 {
+    margin: 0px;
+}

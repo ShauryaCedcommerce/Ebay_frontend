@@ -1,0 +1,119 @@
+/******************************   Analytics->Card Css   **********************************/
+.CARD {
+    position:relative;
+    margin-top:5%;
+    border-radius:5px;
+    box-shadow: 0 4px 10px -5px #777777;
+    border: 1px solid #cccccc;
+    background-color: #ffffff ;
+}
+.CARD-title-small {
+    position:absolute;
+    width:10%;
+    min-height: 80px;
+    padding: 10px 10px 10px;
+    max-height: 100px;
+    top:-50px;
+    overflow: auto;
+    left:5%;
+    background-color: #9c27b0;
+    color: #fff;
+    border-radius:5px;
+    box-shadow: 0 7px 10px -5px #777777;
+}
+.CARD:hover .CARD-title-small {
+    top:-70px;
+}
+.CARD:hover .CARD-title {
+    top:-70px;
+}
+.CARD-title {
+    position:absolute;
+    color: #fff;
+    width:10%;
+    min-height: 80px;
+    padding: 10px 10px 10px;
+    max-height: 100px;
+    top:-50px;
+    overflow: auto;
+    left:10%;
+    background-color:#00acc1;
+    border-radius:5px;
+    box-shadow: 0 7px 10px -5px #777777;
+}
+.BG-primary {
+    background: linear-gradient(60deg, #ab47bc, #8e24aa) !important;
+}
+.BG-info {
+    background: linear-gradient(60deg, #3adaee, #00d3ee) !important;
+}
+.BG-success {
+    background: linear-gradient(60deg, #68ee6a, #00ee08) !important;
+}
+.BG-danger {
+    background: linear-gradient(60deg, #ef595b, #e53935) !important;
+}
+.BG-warn {
+    background: linear-gradient(60deg, #ffbc54, #ffa21a) !important;
+}
+.BG-dark {
+    background: linear-gradient(60deg, #403d3e, #000000) !important;
+    color: #fff;
+}
+.BG-light {
+    background: linear-gradient(60deg, #ffffff, #b4afb0) !important;
+    color: #202020;
+}
+.CARD-body {
+    margin-top:25px;
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+}
+@media screen and (max-width: 650px) {
+    .common {
+        width: 30% !important;
+    }
+}
+@media screen and (min-width: 650px) {
+    .common {
+        width: 15% !important;
+    }
+}
+
+.demo-editor {
+    border-bottom-left-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+    /*background: #fefcfc;*/
+}
+
+/* Snow Theme */
+.demo-editor {
+    display: block;
+    padding: 0 20px;
+    /*font-size: 13px;*/
+    background: #ffffff;
+    border: 1px solid #e7e7e7;
+    border-top-left-radius: 0.3em;
+    border-top-right-radius: 0.3em;
+}
+
+/* Bubble Theme */
+.demo-editor {
+    border-radius: 0.3em;
+}
+
+.demo-editor {
+    min-height: 20em;
+    max-height: 20em;
+}
+
+.rdw-editor-toolbar {
+    border: 1px solid #e7e7e7;
+}
+
+.Polaris-TextField__Input {
+    min-width: 100px !important;
+}
+
+.Polaris-TextField--disabled {
+    color: #333333 !important;
+}
