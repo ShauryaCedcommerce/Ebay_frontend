@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { isUndefined } from "util";
 import { NoteMinor } from "@shopify/polaris-icons";
+
 import {
   Stack,
   Caption,
@@ -20,9 +21,6 @@ import {
   DropZone,
   Thumbnail,
 } from "@shopify/polaris";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { confirmAlert } from "react-confirm-alert";
-// import "react-confirm-alert/src/react-confirm-alert.css";
 import {
   faArrowAltCircleDown,
   faArrowAltCircleUp,
@@ -31,17 +29,10 @@ import {
 import { requests } from "../../../services/request";
 import { notify } from "../../../services/notify";
 
-// import SmartDataTable from "../../../shared/smartTable";
-
-// import { paginationShow } from "./static-functions";
-// import FileImporter from "./import-component/fileimporter";
-
-// import FileImporterBulkUpdate from "./import-component/fileimporterbulkupdate";
-// import { timeStamp } from "console";
 const imageExists = require("image-exists");
 
 export class Editsection extends Component {
-  validImageTypes = ["image/gif", "image/jpeg", "image/png", "image/jpg"];
+  // validImageTypes = ["image/gif", "image/jpeg", "image/png", "image/jpg"];
   constructor(props) {
     super(props);
     this.state = {
@@ -54,10 +45,15 @@ export class Editsection extends Component {
       files: [],
       imagePosition: 0,
       rows: [],
+      type:"",
       variants: [],
+      created_at:"",
       variant_attribute:[],
       product_additionalimage_url:"",
       source_marketplacename: "",
+      account_name:"",
+      updated_at:"",
+      currentTransaction:"",
     };
     this.handleDataCheck();
     this.handlelongdescription = this.handlelongdescription.bind(this);
@@ -83,9 +79,10 @@ export class Editsection extends Component {
 
 
   handleallchangedata() {
-  // console.log(this.state.variant_attribute);
+  // console.log(this.state.created_at);
 let newstr= this.state.product_additionalimage_url.split(",");
 let details={};
+let data={};
 if(newstr!= "" && newstr !== null){
   details={
   title: this.state.Titlemodal,
@@ -94,6 +91,7 @@ if(newstr!= "" && newstr !== null){
   source_product_id: this.state.source_product_idmodal,
   product_type: this.state.product_typemodal,
   additional_image: newstr,
+  type:this.state.type,
  }
 }
  else
@@ -104,16 +102,45 @@ if(newstr!= "" && newstr !== null){
     long_description: this.state.long_descriptionmodal,
     vendor: this.state.vendormodal,
     product_type: this.state.product_typemodal,
+    type:this.state.type,
    }
 
  }
-    let data = {
+ if(this.state.account_name !=""){
+     data = {
     details:details,
     merchant_id: this.props.history.location.state.parent_props.merchant_id,
     variant_attribute: this.state.variant_attribute,
     variants: this.state.variants,
     source_marketplace: this.state.source_marketplacename,
+    account_name:this.state.account_name,
     };
+  }
+  else
+  {
+    if(this.state.created_at==""){
+      data = {
+        details:details, 
+        merchant_id: this.props.history.location.state.parent_props.merchant_id,
+        variant_attribute: this.state.variant_attribute,
+        variants: this.state.variants,
+        source_marketplace: this.state.source_marketplacename,
+        };
+    }
+    else{
+
+    data = {
+      details:details,
+      created_at:this.state.created_at,
+      currentTransaction:this.state.currentTransaction,
+      merchant_id: this.props.history.location.state.parent_props.merchant_id,
+      variant_attribute: this.state.variant_attribute,
+      variants: this.state.variants,
+      source_marketplace: this.state.source_marketplacename,
+      updated_at:this.state.updated_at,
+      };
+    }
+  }
    let maindata={
      data:data
    }
@@ -198,6 +225,27 @@ if(newstr!= "" && newstr !== null){
       })
       .then((data) => {
         console.log(data);
+        if(!isUndefined(data.data["currentTransaction"])){
+          this.setState({currentTransaction:data.data["currentTransaction"]});
+        }
+        if(!isUndefined(data.data["created_at"])){
+          this.setState({created_at:data.data["created_at"]});
+        }
+        if(!isUndefined(data.data["updated_at"])){
+          this.setState({updated_at:data.data["updated_at"]});
+        }
+        if(!isUndefined(data.data["source_marketplace"]) && data.data["source_marketplace"]!=="")
+        {
+          if(data.data["source_marketplace"]="amazonimporter"){
+            if(!isUndefined(data.data["account_name"])){
+             this.setState({account_name:data.data["account_name"]});
+            }
+          }
+        }
+        if(!isUndefined(data.data["details"]["type"]))
+        {
+          this.setState({type:data.data["details"]["type"]});
+        }
         if(!isUndefined(data.data['variant_attribute']) ){
  this.setState({variant_attribute:data.data["variant_attribute"]});
         }
@@ -283,8 +331,6 @@ if(newstr!= "" && newstr !== null){
   }
 
   render() {
-    // console.log(this.props);
-
     return (
       <React.Fragment>
         <div>
