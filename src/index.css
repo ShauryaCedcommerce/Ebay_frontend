@@ -351,7 +351,7 @@ background-color: rgb(0,0,0,0.80);
 }
 
 .deleteiconbtn {
-    color: #d53417;
+  font-size: 30px;
     cursor: pointer;
 }
 
@@ -468,9 +468,12 @@ background-color: rgb(0,0,0,0.80);
 }
 #iconflexdisplayid{
     display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
 }
 .iconmarginclass{
-    margin: 0px 2%;
+    margin: 0px 5%;
 }
 .productupdatebtncls {
     display: flex;
