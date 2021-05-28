@@ -17,7 +17,7 @@ import {
   Checkbox,
   Thumbnail,
 } from "@shopify/polaris";
-import { CirclePlusMinor } from "@shopify/polaris-icons";
+import { CirclePlusMinor,ComposeMajorTwotone } from "@shopify/polaris-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { confirmAlert } from "react-confirm-alert";
 import "react-confirm-alert/src/react-confirm-alert.css";
@@ -33,7 +33,7 @@ import SmartDataTable from "../../../shared/smartTable";
 
 import { paginationShow } from "./static-functions";
 import FileImporter from "./import-component/fileimporter";
-import { DeleteMajorTwotone, EditMajorTwotone } from "@shopify/polaris-icons";
+import { DeleteMajorMonotone } from "@shopify/polaris-icons";
 import {
   LinkMinor
 } from '@shopify/polaris-icons';
@@ -800,8 +800,9 @@ export class Products extends Component {
               )}
               style={{ cursor: "pointer" }}
             >
-              <Icon source={EditMajorTwotone} color="success"  backdrop={true} />
+              <Icon source={ComposeMajorTwotone} color="success"  backdrop={true} />
             </span>
+            {/* <span id="checkidspan">Edit</span> */}
             </div>
             <div className="iconmarginclass">
             <span
@@ -809,9 +810,9 @@ export class Products extends Component {
                 this,
                 data[i]["details"]["source_product_id"]
               )}
-              style={{ cursor: "pointer" }}
+              style={{ cursor: "pointer","font-size": "25px"}}
             >
-              <Icon source={DeleteMajorTwotone} color="success" backdrop={true} />
+               <i class="fa fa-trash  deleteiconbtn" />
             </span>
             </div>
           </div>
